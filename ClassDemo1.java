@@ -21,9 +21,11 @@ public class ClassDemo1
 
 
 class person {
-	char gender;		//F-> Female, M->Male
-	double height;		//Person's height
-	int age;			//Person's age
+	// Properties
+	char gender;	//F-> Female, M->Male
+	double height;	//Person's height
+	int age;	//Person's age
+	
 	//Method
 	String printGender(){
 		if (gender == 'M' || gender == 'm')
